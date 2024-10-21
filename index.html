@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Awareness Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Environmental Awareness Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our mission is to promote environmental awareness and sustainable practices through education and community engagement.</p>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Understanding Climate Change</a></li>
+                <li><a href="#">Sustainable Living Tips</a></li>
+                <li><a href="#">Reduce, Reuse, Recycle</a></li>
+            </ul>
+        </section>
+
+        <section id="quiz">
+            <h2>Test Your Knowledge</h2>
+            <button id="start-quiz">Start Quiz</button>
+            <div id="quiz-container" style="display: none;">
+                <p id="quiz-question"></p>
+                <input type="text" id="user-answer" placeholder="Your answer here">
+                <button id="submit-answer">Submit</button>
+                <p id="feedback"></p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Environmental Awareness Portal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
